@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
 *{
     font-family: sans-serif;
     margin: 0;
@@ -7,7 +8,7 @@
     color: white;
 }
 body,html{
-    background-color: #0f0f10;
+    background-color: #060607;
 }
 .banner{
     display: flex;
@@ -170,4 +171,26 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container img{
+  width: 600px;
+  border-radius:100px;
+}
+.img{
+  text-align: right;
+  margin-right: 40px;
+  padding-top: 70px;
+}
+.container h1,h2{
+  position: absolute;
+}
+.container h1{
+  padding-top: 10%;
+  font-size:50px;
+  font-family: "Vend Sans", sans-serif;
+  margin-left: 150px;
+}
+.container h2{
+  padding-top: 15%;
+  margin-left: 150px;
 }
