@@ -25,6 +25,7 @@ body,html{
 .banner h2{
     font-size: 30px;
     margin-top: 5px;
+    filter: brightness(70%);
 }
 .banner video {
     position: absolute;
@@ -181,7 +182,7 @@ button {
   margin-right: 40px;
   padding-top: 70px;
 }
-.container h1,h2{
+.container h1,p{
   position: absolute;
 }
 .container h1{
@@ -190,7 +191,25 @@ button {
   font-family: "Vend Sans", sans-serif;
   margin-left: 150px;
 }
-.container h2{
-  padding-top: 15%;
+.container p{
+  padding-top: 17%;
   margin-left: 150px;
+  max-width: 400px;
+  font-size: 20px;
+  filter: brightness(70%);
+}
+
+@media (max-width: 1280px){
+  .content button{
+    margin-top: 40px;
+  }
+  .content h2{
+    font-size: 25px;
+  }
+  .container h1{
+    margin-left: 100px;
+  }
+  .container p{
+    margin-left: 100px;
+  }
 }
