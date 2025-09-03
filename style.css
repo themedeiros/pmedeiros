@@ -213,3 +213,13 @@ button {
     margin-left: 100px;
   }
 }
+@media (max-width:1920px){
+  .container h1{
+    font-size:60px;
+    
+  }
+  .img{
+    margin-right: 140px;
+  }
+}
+
